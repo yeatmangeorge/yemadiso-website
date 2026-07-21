@@ -11,6 +11,6 @@ module.exports = function (eleventyConfig) {
     },
     // Set this to "/your-repo-name" if this site is served from
     // https://username.github.io/repo-name/ rather than the account root.
-    pathPrefix: "/",
+    pathPrefix: "/yemadiso-website",
   };
 };
