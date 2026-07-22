@@ -3,7 +3,8 @@
         <a class="brand" href="/">Yemadiso</a>
         <div class="nav-links">
             <a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a>
-            <a href="/macrolens" {% if page.url == "/macrolens"%}aria-current="page"{% endif %}>MacroLens</a>
+            <a href="/services/" {% if page.url.includes("/services/") %}aria-current="page"{% endif %}>Services</a>
+            <a href="/macrolens/" {% if page.url.includes("/macrolens/") %}aria-current="page"{% endif %}>MacroLens</a>
         </div>
         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle color theme" type="button">
             <span aria-hidden="true">🌙</span>
