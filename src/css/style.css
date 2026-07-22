@@ -157,6 +157,19 @@ a {
     border-radius: 20px;
     padding: 28px;
     transition: transform 0.2s ease, border-color 0.2s ease;
+    flex: 1;
+    text-decoration: none;
+    color: inherit;
+}
+.card-container {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 600px) {
+    .card-container {
+        flex-direction: column;
+    }
 }
 
 .card:hover {
