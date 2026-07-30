@@ -157,6 +157,7 @@ a {
 
 .card {
     display: block;
+    position: relative;
     background: var(--bg-elev);
     border: 1px solid var(--border);
     border-radius: 20px;
@@ -164,10 +165,39 @@ a {
     transition: transform 0.2s ease, border-color 0.2s ease;
     text-decoration: none;
     color: inherit;
+    margin-bottom: 1rem;
 }
+
+.card[href]::after {
+    content: "→";
+    position: absolute;
+    right: 24px;
+    bottom: 24px;
+    color: var(--accent);
+}
+
+.card-container .card[href]::after {
+    content: none;
+}
+
 .card-container {
     display: flex;
     gap: 1rem;
+}
+
+.card:hover {
+    transform: none;
+    border-color: var(--border);
+}
+
+.card[href]:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+}
+
+.card h2 {
+    margin: 0 0 12px;
+    font-size: 1.5rem;
 }
 
 @media (max-width: 600px) {
@@ -179,16 +209,6 @@ a {
         gap: 12px;
         font-size: 0.9rem;
     }
-}
-
-.card:hover {
-    transform: translateY(-4px);
-    border-color: var(--accent);
-}
-
-.card h2 {
-    margin: 0 0 12px;
-    font-size: 1.5rem;
 }
 
 .badge {
