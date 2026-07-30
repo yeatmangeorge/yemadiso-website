@@ -3,12 +3,15 @@ layout: base.njk
 title: Services
 description: Make your ideas reality with Yemadiso services.
 ---
+<header class ="hero">
 
 # Services
 
 Below is a list of available services. If your idea doesn't fit neatly into one of these catagories, please get in touch anyway.
 
 Think of it as the menu at your favourite, independent resturant; just because something isn't on the menu, doesn't mean that we can't cook it up!
+
+</header>
 
 ## Available Services
 

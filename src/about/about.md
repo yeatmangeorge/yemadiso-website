@@ -3,8 +3,11 @@ layout: base.njk
 title: About — Yemadiso
 description: The person and the philosophy behind Yemadiso.
 ---
+<header class = "hero">
+
 # About
-## The person behind the studio.
+### The person behind the studio.
+</header>
 
 <article class="card">
 
