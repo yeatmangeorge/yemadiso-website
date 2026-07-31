@@ -66,7 +66,7 @@ Provided tech support for an interactive artwork using face-detection and a real
 
 The work needed to display different subtitles to each computer in real time. The solution was to communicate with websockets and use a tick-based system, not too dissimilar from a game client and server.
 
-The other challenge was determining how long to display each subtitle. Bergman needed to make fast and frequent changes to the scripts, so a linguistic analysis algorithm was implemented. This counted elements such as words, characters, punctuation and the next subtitle to determine how long each subtitle should be displayed for.
+The other challenge was determining how long to display each subtitle. Bergman needed to make fast and frequent changes to the scripts, so a linguistic analysis algorithm was implemented. This counted elements such as words, characters, punctuation, and the next subtitle to determine how long each subtitle should be displayed for.
 
 </article>
 
