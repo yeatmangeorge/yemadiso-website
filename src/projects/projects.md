@@ -17,6 +17,8 @@ Looking for some inspiration? Take a look at some of our current and past projec
 
 Get the most out of your protein and meal replacement powders. Calculate macros, make better decisions.
 
+<img src="/assets/images/macrolens_screenshot.webp" alt="MacroLens main calculator screen." class="phone-screenshot"/>
+
 <article class="card">
 
 ### Precisely optimise your macro intake

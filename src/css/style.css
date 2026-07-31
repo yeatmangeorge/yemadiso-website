@@ -250,6 +250,28 @@ a {
     opacity: 0.9;
 }
 
+.phone-screenshot {
+  width: 250px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+    margin: 3em auto;
+  transition: transform 0.2s ease;
+  transform:
+    perspective(1200px)
+    rotateY(-14deg)
+    rotateZ(3deg)
+    rotateX(3deg);
+  filter: drop-shadow(20px 25px 25px rgba(0,0,0,0.2));
+}
+
+.phone-screenshot:hover {
+    transform:
+        perspective(1000px)
+        rotateY(0deg)
+        rotateZ(0deg);
+}
+
 footer {
     border-top: 1px solid var(--border);
     padding: 24px;
