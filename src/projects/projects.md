@@ -60,6 +60,9 @@ Track your shakes over time and gain insights into your protein powder and meal 
 
 Provided tech support for an interactive artwork using face-detection and a real time server.
 
+<div class="image-container">
+    <img class="content-image" src="/assets/images/call_the_scribe_demo.webp" alt="Image showing two participants performing Call the Scribe">
+</div>
 <article class="card">
 
 ### Real time subtitles
