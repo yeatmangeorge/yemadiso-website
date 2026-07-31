@@ -14,6 +14,19 @@
     --header-bg: rgba(247, 248, 250, 0.85);
 }
 
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 3em;
+}
+
+.content-image {
+    max-width: 60%;
+    height: auto;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
 [data-theme="dark"] {
     --bg: #0f1115;
     --bg-elev: #181b22;

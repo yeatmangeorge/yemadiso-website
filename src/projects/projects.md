@@ -54,3 +54,36 @@ Track your shakes over time and gain insights into your protein powder and meal 
         <h3>Terms of Use</h3>
     </a>
 </div>
+
+## Call the Scribe
+
+
+Provided tech support for an interactive artwork using face-detection and a real time server.
+
+<div class="image-container">
+    <img class="content-image" src="/assets/images/call_the_scribe_demo.webp" alt="Image showing two participants performing Call the Scribe">
+</div>
+<article class="card">
+
+### Real time subtitles
+
+The work needed to display different subtitles to each computer in real time. The solution was to communicate with websockets and use a tick-based system, not too dissimilar from a game client and server.
+
+The other challenge was determining how long to display each subtitle. Bergman needed to make fast and frequent changes to the scripts, so a linguistic analysis algorithm was implemented. This counted elements such as words, characters, punctuation, and the next subtitle to determine how long each subtitle should be displayed for.
+
+</article>
+
+<article class="card">
+
+### Face-detection to automatically start the piece
+The work required two people to be present in front of two different computers before it began. This presented an interesting challenge.
+
+The solution was for each computer to detect if there was someone sat in front of itself and then report this to the server, which would manage the state based on messages received from each computer. 
+</article>
+
+<a href="https://liabergman.com/" class="card">
+
+### Find out more
+Click here to find out more about Call the Scribe and Bergman's other work.
+
+</a>
