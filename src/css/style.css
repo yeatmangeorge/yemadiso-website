@@ -17,14 +17,20 @@
 .image-container {
     display: flex;
     justify-content: center;
-    margin: 3em;
+    margin: 3em 0;
 }
 
 .content-image {
-    max-width: 60%;
+    width: min(60%, 900px);
     height: auto;
     border-radius: 16px;
     box-shadow: 0 12px 30px rgba(0,0,0,0.12);
+}
+
+@media (max-width: 600px) {
+    .content-image {
+        width: 100%;
+    }
 }
 
 [data-theme="dark"] {
