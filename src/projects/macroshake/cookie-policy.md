@@ -2,11 +2,11 @@
 layout: base.njk
 title: Macrolens - Cookie Policy
 ---
-# MacroLens
+# MacroShake
 ## Cookie Policy
 
 **YEATMAN DIGITAL SOLUTIONS LTD**
-https://yemadiso.com/macrolens/
+https://yemadiso.com/projects/macroshake/cookie-policy
 
 **Last updated:** 23 July 2026
 
@@ -90,7 +90,7 @@ This cookie policy was last updated on 23 July 2026.
 
 If you have any questions about our use of cookies, please contact us:
 
-**Email:** privacy@macrolens.yemadiso.com
-**Website:** https://yemadiso.com/macrolens/
+**Email:** privacy@macroshake.yemadiso.com
+**Website:** https://yemadiso.com/projects/macroshake/cookie-policy
 
 ---
