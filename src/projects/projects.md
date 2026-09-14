@@ -44,6 +44,9 @@ Track your shakes over time and gain insights into your protein powder and meal 
 
 ### Legal
 <div class="card-container">
+    <a href="macroshake/support/" class="card">
+        <h3>Support</h3>
+    </a>
     <a href="macroshake/privacy-policy/" class="card">
         <h3>Privacy Policy</h3>
     </a>
