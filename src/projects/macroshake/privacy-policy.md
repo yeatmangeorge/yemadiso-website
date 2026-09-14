@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-title: MacroLens - Privacy Policy
+title: MacroShake - Privacy Policy
 ---
-# MacroLens
+# MacroShake
 ## Privacy Policy
 
 **YEATMAN DIGITAL SOLUTIONS LTD**
-https://yemadiso.com/macrolens/
+https://yemadiso.com/projects/macroshake/privacy-policy
 
 **Last updated:** 23 July 2026
 
@@ -32,7 +32,7 @@ https://yemadiso.com/macrolens/
 
 Welcome to YEATMAN DIGITAL SOLUTIONS LTD's privacy policy.
 
-YEATMAN DIGITAL SOLUTIONS LTD (Limited Company) respects your privacy and is committed to protecting your personal data. This privacy policy tells you how we look after your personal data when you visit our website at https://yemadiso.com/macrolens/ and tells you about your privacy rights and how the law protects you.
+YEATMAN DIGITAL SOLUTIONS LTD (Limited Company) respects your privacy and is committed to protecting your personal data. This privacy policy tells you how we look after your personal data when you visit our website at https://yemadiso.com/projects/macroshake/privacy-policy and tells you about your privacy rights and how the law protects you.
 
 This policy is provided in a layered format so you can navigate to the specific areas set out below. It is important that you read this privacy policy together with any other privacy notices we may provide on specific occasions when we are collecting or processing personal data about you, so that you are fully aware of how and why we are using your data.
 
@@ -133,8 +133,8 @@ You are not required to pay any charge for exercising your rights. If you make a
 
 If you have any questions about this privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.
 
-**Email:** privacy@macrolens.yemadiso.com
-**Website:** https://yemadiso.com/macrolens/
+**Email:** privacy@macroshake.yemadiso.com
+**Website:** https://yemadiso.com/projects/macroshake/privacy-policy
 
 ---
 

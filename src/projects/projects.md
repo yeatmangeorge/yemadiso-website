@@ -12,17 +12,17 @@ Looking for some inspiration? Take a look at some of our current and past projec
 
 <header class="hero">
 
-## MacroLens
+## MacroShake
 
 
 Get the most out of your protein and meal replacement powders. Calculate macros, make better decisions.
 
-<img src="/assets/images/macrolens_screenshot.webp" alt="MacroLens main calculator screen." class="phone-screenshot"/>
+<img src="/assets/images/macroshake_screenshot.webp" alt="MacroShake main calculator screen." class="phone-screenshot"/>
 
 <article class="card">
 
 ### Precisely optimise your macro intake
-You know your macro goals. MacroLens works out exactly how much protein powder or meal replacement you need to hit them.
+You know your macro goals. MacroShake works out exactly how much protein powder or meal replacement you need to hit them.
 
 Save time and be more precise calculating.
 </article>
@@ -44,13 +44,13 @@ Track your shakes over time and gain insights into your protein powder and meal 
 
 ### Legal
 <div class="card-container">
-    <a href="macrolens/privacy-policy/" class="card">
+    <a href="macroshake/privacy-policy/" class="card">
         <h3>Privacy Policy</h3>
     </a>
-    <a href="macrolens/cookie-policy/" class="card">
+    <a href="macroshake/cookie-policy/" class="card">
         <h3>Cookie Policy</h3>
     </a>
-    <a href="macrolens/terms-of-use/" class="card">
+    <a href="macroshake/terms-of-use/" class="card">
         <h3>Terms of Use</h3>
     </a>
 </div>

@@ -1,12 +1,12 @@
 ---
 layout: base.njk
-title: MacroLens - Terms of Use
+title: MacroShake - Terms of Use
 ---
-# MacroLens
+# MacroShake
 ## Terms of Use
 
 **YEATMAN DIGITAL SOLUTIONS LTD**
-https://yemadiso.com/macrolens/
+https://yemadiso.com/projects/macroshake/terms-of-use
 
 **Last updated:** 23 July 2026
 
@@ -27,11 +27,11 @@ https://yemadiso.com/macrolens/
 
 ### 1. Introduction
 
-Welcome to YEATMAN DIGITAL SOLUTIONS LTD. These terms and conditions outline the rules and regulations for the use of YEATMAN DIGITAL SOLUTIONS LTD's website, located at https://yemadiso.com/macrolens/.
+Welcome to YEATMAN DIGITAL SOLUTIONS LTD. These terms and conditions outline the rules and regulations for the use of YEATMAN DIGITAL SOLUTIONS LTD's website, located at https://yemadiso.com/projects/macroshake/terms-of-use.
 
 YEATMAN DIGITAL SOLUTIONS LTD is a Limited Company based in the United Kingdom.
 
-By accessing this website, you accept these terms and conditions. Do not continue to use https://yemadiso.com/macrolens/ if you do not agree to all of the terms and conditions stated on this page.
+By accessing this website, you accept these terms and conditions. Do not continue to use https://yemadiso.com/projects/macroshake/terms-of-use if you do not agree to all of the terms and conditions stated on this page.
 
 ---
 
@@ -102,7 +102,7 @@ These terms were last updated on 23 July 2026.
 
 If you have any questions about these terms, please contact us:
 
-**Email:** privacy@macrolens.yemadiso.com
-**Website:** https://yemadiso.com/macrolens/
+**Email:** privacy@macroshake.yemadiso.com
+**Website:** https://yemadiso.com/projects/macroshake/terms-of-use
 
 ---
