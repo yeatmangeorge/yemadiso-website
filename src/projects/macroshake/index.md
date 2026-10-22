@@ -7,7 +7,7 @@ description: Calculate protein app
 
 Calculate macros, make better decisions. Get the most out of your protein and meal replacement powders. 
 
-<a href="https://apps.apple.com/hk/app/macroshake/id6801119311"><span class="badge">Available now on the App Store</span></a>
+<a href="https://apps.apple.com/app/macroshake/id6801119311"><span class="badge">Available now on the App Store</span></a>
 
 <img src="/assets/images/macroshake_screenshot.webp" alt="MacroShake main calculator screen." class="phone-screenshot"/>
 
