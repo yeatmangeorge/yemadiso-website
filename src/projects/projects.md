@@ -14,8 +14,9 @@ Looking for some inspiration? Take a look at some of our current and past projec
 
 ## MacroShake
 
+Calculate macros, make better decisions. Get the most out of your protein and meal replacement powders. 
 
-Get the most out of your protein and meal replacement powders. Calculate macros, make better decisions.
+<a href="https://apps.apple.com/hk/app/macroshake/id6801119311"><span class="badge">Available now on the App Store</span></a>
 
 <img src="/assets/images/macroshake_screenshot.webp" alt="MacroShake main calculator screen." class="phone-screenshot"/>
 
@@ -39,7 +40,6 @@ Browse an extensive database of protein powders and meal replacements. Then imme
 ### Track your shakes, gain insights
 Track your shakes over time and gain insights into your protein powder and meal replacement usage.
 
-<span class="badge">Feature Coming Soon</span>
 </article>
 
 ### Legal
