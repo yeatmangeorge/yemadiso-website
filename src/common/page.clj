@@ -6,7 +6,7 @@
 ;;p The website design is extremely consistent. All pages have a navbar, footer, title, as well as a main content section, so we should be able to automatically generate everything but the main content. Given this, I'm ideally wanting a function that makes it really easy to define pages. Let's sketch out what it could look like.
 (ns common.page)
 
-(defn page [title description content]
+(defn page-gen [title description content]
   (format "
 <!doctype html>
 <html lang= \"en-GB\" >
@@ -81,14 +81,14 @@
 (deftag link false)
 
 ;;p Now we can actually rewrite our initial page implmentation using these:
-(defn page [title description content]
+(defn page-gen [title description content]
   (str "<!doctype html>\n"
        (html {:lang "en-GB"}
              (head
               (metatag {:charset "utf-8"})))
        title description content))
 
-(defn page [page-title page-description page-route content]
+(defn page-gen [page-title page-description page-route content]
   (str "<!doctype html>\n"
        (html {:lang "en-GB"}
              [(head [(metatag {:charset "utf-8"})
@@ -97,7 +97,75 @@
                      (metatag {:name "description" :content page-description})
                      (link {:rel "canonical" :href (str "https://yemadiso.com/" page-route)})])
               (body [(header page-title)
-                     (main content)
+                     (main [(h1 page-title)
+                            content])
                      (footer [])])])))
 
-(spit ".test.html" (page 1 2 3 4))
+;;p Nice!
+
+;;h2 File Path URL Generation
+;;p Something I want to try is having the filenames and locations determine page-route. First we'll need some functions to manipulate a given filepath into a valid url:
+(defn- filepath->components [filepath]
+  (string/split filepath #"/"))
+
+(defn- components->filepath [components]
+  (string/join "/" components))
+
+(defn- remove-paths-before-page [filepath]
+  (->> filepath
+       filepath->components
+       (drop-while (fn [x] (not= "page" x)))
+       rest
+       components->filepath))
+
+(defn- remove-.clj-ext [filepath]
+  (string/replace filepath #"\.clj$" ""))
+
+(defn- filepath->url [filepath]
+  (string/replace filepath  #"_" "-"))
+
+;;p Now we need a function to detect the current file, then combines the functions we just created to generate a url from the file's filepath:
+
+(defn current-file-page-route []
+  (->> *file*
+       remove-.clj-ext
+       remove-paths-before-page
+       filepath->url
+       (str "/")))
+
+;;p Finally, we'll need a function to get the base domain url. We'll set this using env variables.
+
+(def domain-url (or (System/getenv "DOMAIN_URL")
+                    "http://localhost:8080"))
+
+;;p Now we can avoid having to pass in the page-route for each page declaration. It is infered by where it is placed in src/page
+(defn page-gen
+  ([page-title page-description content] (page-gen page-title page-description (current-file-page-route) content))
+  ([page-title page-description page-route content]
+   (str "<!doctype html>\n"
+        (html {:lang "en-GB"}
+              [(head [(metatag {:charset "utf-8"})
+                      (metatag {:name "viewport" :content "width=device-width, initial-scale=1"})
+                      (title page-title)
+                      (metatag {:name "description" :content page-description})
+                      (link {:rel "canonical" :href (str domain-url page-route)})])
+               (body [(header page-title)
+                      (main [(h1 page-title)
+                             content])
+                      (footer [])])]))))
+
+;;h2 Defpage Macro
+;;p Now that we've got functions to create routes and pages, we can combine them into a convinient little macro to generate two functions to define them. 
+(defmacro defpage [page-title page-description content]
+  `(do
+     (defn ~'page []
+       (page-gen ~page-title ~page-description ~content))
+
+     (defn ~'route []
+       (current-file-page-route))))
+
+;;p I did consider naming the generated functions by the given page-title. However, I considered that we are already going to be using seperate files and namespaces for discovery anyway, so it's easier to just keep the names consistent and differentiate them by their namespaces. 
+
+(defpage "test page")
+
+(spit ".test.html" (page-gen 1 3 4))
